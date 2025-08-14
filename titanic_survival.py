@@ -27,4 +27,5 @@ if button:
     if pred == 0:
         st.success(f"this person survived, Probality:, {probablity:.2f}")
     else:
+
         st.error(f"This person has drowned, Probability: {probablity:.2f}")
